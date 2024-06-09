@@ -19,7 +19,7 @@ public class RoupaTamanhoUnico extends Peca implements Item {
 			this.setQuantidade(this.quantidade+(this.estoqueMaximo-this.quantidade));
 			System.out.println("Reposição feita com Sucesso\n");
 		}else{
-			throw new EstoqueNoMaxException("O estoque nao precisa de reposicao");
+			throw new EstoqueNoMaxException("Isto é um teste pro github");
 		}
 		
 	}
